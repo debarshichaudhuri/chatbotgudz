@@ -21,7 +21,7 @@ class ChatRequest(BaseModel):
     message: str
 
 # ✅ Mistral API Key & Client Setup
-MISTRAL_API_KEY = "lYzMYEYlCYqDlNOsc0dNp6LJ29bpxKwO"  # Replace with your actual Mistral API key
+MISTRAL_API_KEY = "YOUR MISTRAL API KEY"  # Replace with your actual Mistral API key
 client = Mistral(api_key=MISTRAL_API_KEY)
 CUSTOMER_SUPPORT_NUMBER = "+910123456789"
 
